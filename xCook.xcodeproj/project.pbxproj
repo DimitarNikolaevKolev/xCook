@@ -1,0 +1,617 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA42730E1F21318B0005A0F9 /* RecipeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FA42730C1F21318B0005A0F9 /* RecipeTableViewCell.m */; };
+		FA42730F1F21318B0005A0F9 /* RecipeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA42730D1F21318B0005A0F9 /* RecipeTableViewCell.xib */; };
+		FA4273121F21711F0005A0F9 /* DetailRecipeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA4273111F21711F0005A0F9 /* DetailRecipeViewController.m */; };
+		FA4273151F2178650005A0F9 /* DetailUserProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA4273141F2178650005A0F9 /* DetailUserProfileViewController.m */; };
+		FA78C2671F1E7D4600ECF806 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FA78C2661F1E7D4600ECF806 /* main.m */; };
+		FA78C26A1F1E7D4600ECF806 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FA78C2691F1E7D4600ECF806 /* AppDelegate.m */; };
+		FA78C26D1F1E7D4600ECF806 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA78C26C1F1E7D4600ECF806 /* ViewController.m */; };
+		FA78C2701F1E7D4600ECF806 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA78C26E1F1E7D4600ECF806 /* Main.storyboard */; };
+		FA78C2731F1E7D4600ECF806 /* xCook.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FA78C2711F1E7D4600ECF806 /* xCook.xcdatamodeld */; };
+		FA78C2751F1E7D4600ECF806 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA78C2741F1E7D4600ECF806 /* Assets.xcassets */; };
+		FA78C2781F1E7D4600ECF806 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA78C2761F1E7D4600ECF806 /* LaunchScreen.storyboard */; };
+		FA78C2831F1E7D4600ECF806 /* xCookTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FA78C2821F1E7D4600ECF806 /* xCookTests.m */; };
+		FA78C28E1F1E7D4600ECF806 /* xCookUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FA78C28D1F1E7D4600ECF806 /* xCookUITests.m */; };
+		FA78C29D1F1E7D6500ECF806 /* RegistrationView.m in Sources */ = {isa = PBXBuildFile; fileRef = FA78C29C1F1E7D6500ECF806 /* RegistrationView.m */; };
+		FA78C2A01F1EC82D00ECF806 /* ListUsersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA78C29F1F1EC82D00ECF806 /* ListUsersViewController.m */; };
+		FA78C2A61F1F71C800ECF806 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA78C2A51F1F71C800ECF806 /* MainViewController.m */; };
+		FA78C2AC1F1F8E4B00ECF806 /* AlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = FA78C2AB1F1F8E4B00ECF806 /* AlertView.m */; };
+		FA78C2AF1F1F990D00ECF806 /* CreateRecipeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA78C2AE1F1F990D00ECF806 /* CreateRecipeViewController.m */; };
+		FA78C2B21F1FEC9B00ECF806 /* ListCountryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA78C2B11F1FEC9B00ECF806 /* ListCountryViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FA78C27F1F1E7D4600ECF806 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA78C25A1F1E7D4600ECF806 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA78C2611F1E7D4600ECF806;
+			remoteInfo = xCook;
+		};
+		FA78C28A1F1E7D4600ECF806 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA78C25A1F1E7D4600ECF806 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA78C2611F1E7D4600ECF806;
+			remoteInfo = xCook;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FA42730B1F21318B0005A0F9 /* RecipeTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecipeTableViewCell.h; sourceTree = "<group>"; };
+		FA42730C1F21318B0005A0F9 /* RecipeTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecipeTableViewCell.m; sourceTree = "<group>"; };
+		FA42730D1F21318B0005A0F9 /* RecipeTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RecipeTableViewCell.xib; sourceTree = "<group>"; };
+		FA4273101F21711F0005A0F9 /* DetailRecipeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailRecipeViewController.h; sourceTree = "<group>"; };
+		FA4273111F21711F0005A0F9 /* DetailRecipeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailRecipeViewController.m; sourceTree = "<group>"; };
+		FA4273131F2178650005A0F9 /* DetailUserProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailUserProfileViewController.h; sourceTree = "<group>"; };
+		FA4273141F2178650005A0F9 /* DetailUserProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailUserProfileViewController.m; sourceTree = "<group>"; };
+		FA78C2621F1E7D4600ECF806 /* xCook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = xCook.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA78C2661F1E7D4600ECF806 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FA78C2681F1E7D4600ECF806 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FA78C2691F1E7D4600ECF806 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FA78C26B1F1E7D4600ECF806 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FA78C26C1F1E7D4600ECF806 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FA78C26F1F1E7D4600ECF806 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FA78C2721F1E7D4600ECF806 /* xCook.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = xCook.xcdatamodel; sourceTree = "<group>"; };
+		FA78C2741F1E7D4600ECF806 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FA78C2771F1E7D4600ECF806 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FA78C2791F1E7D4600ECF806 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA78C27E1F1E7D4600ECF806 /* xCookTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = xCookTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA78C2821F1E7D4600ECF806 /* xCookTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = xCookTests.m; sourceTree = "<group>"; };
+		FA78C2841F1E7D4600ECF806 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA78C2891F1E7D4600ECF806 /* xCookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = xCookUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA78C28D1F1E7D4600ECF806 /* xCookUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = xCookUITests.m; sourceTree = "<group>"; };
+		FA78C28F1F1E7D4600ECF806 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA78C29B1F1E7D6500ECF806 /* RegistrationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegistrationView.h; sourceTree = "<group>"; };
+		FA78C29C1F1E7D6500ECF806 /* RegistrationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegistrationView.m; sourceTree = "<group>"; };
+		FA78C29E1F1EC82D00ECF806 /* ListUsersViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListUsersViewController.h; sourceTree = "<group>"; };
+		FA78C29F1F1EC82D00ECF806 /* ListUsersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListUsersViewController.m; sourceTree = "<group>"; };
+		FA78C2A41F1F71C800ECF806 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		FA78C2A51F1F71C800ECF806 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		FA78C2AA1F1F8E4B00ECF806 /* AlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlertView.h; sourceTree = "<group>"; };
+		FA78C2AB1F1F8E4B00ECF806 /* AlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlertView.m; sourceTree = "<group>"; };
+		FA78C2AD1F1F990D00ECF806 /* CreateRecipeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreateRecipeViewController.h; sourceTree = "<group>"; };
+		FA78C2AE1F1F990D00ECF806 /* CreateRecipeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreateRecipeViewController.m; sourceTree = "<group>"; };
+		FA78C2B01F1FEC9B00ECF806 /* ListCountryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListCountryViewController.h; sourceTree = "<group>"; };
+		FA78C2B11F1FEC9B00ECF806 /* ListCountryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListCountryViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA78C25F1F1E7D4600ECF806 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA78C27B1F1E7D4600ECF806 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA78C2861F1E7D4600ECF806 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA78C2591F1E7D4600ECF806 = {
+			isa = PBXGroup;
+			children = (
+				FA78C2641F1E7D4600ECF806 /* xCook */,
+				FA78C2811F1E7D4600ECF806 /* xCookTests */,
+				FA78C28C1F1E7D4600ECF806 /* xCookUITests */,
+				FA78C2631F1E7D4600ECF806 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FA78C2631F1E7D4600ECF806 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA78C2621F1E7D4600ECF806 /* xCook.app */,
+				FA78C27E1F1E7D4600ECF806 /* xCookTests.xctest */,
+				FA78C2891F1E7D4600ECF806 /* xCookUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA78C2641F1E7D4600ECF806 /* xCook */ = {
+			isa = PBXGroup;
+			children = (
+				FA78C2AA1F1F8E4B00ECF806 /* AlertView.h */,
+				FA78C2AB1F1F8E4B00ECF806 /* AlertView.m */,
+				FA78C2681F1E7D4600ECF806 /* AppDelegate.h */,
+				FA78C2691F1E7D4600ECF806 /* AppDelegate.m */,
+				FA78C26B1F1E7D4600ECF806 /* ViewController.h */,
+				FA78C26C1F1E7D4600ECF806 /* ViewController.m */,
+				FA78C29B1F1E7D6500ECF806 /* RegistrationView.h */,
+				FA78C29C1F1E7D6500ECF806 /* RegistrationView.m */,
+				FA78C29E1F1EC82D00ECF806 /* ListUsersViewController.h */,
+				FA78C29F1F1EC82D00ECF806 /* ListUsersViewController.m */,
+				FA78C2AD1F1F990D00ECF806 /* CreateRecipeViewController.h */,
+				FA78C2AE1F1F990D00ECF806 /* CreateRecipeViewController.m */,
+				FA78C2B01F1FEC9B00ECF806 /* ListCountryViewController.h */,
+				FA78C2B11F1FEC9B00ECF806 /* ListCountryViewController.m */,
+				FA78C2A41F1F71C800ECF806 /* MainViewController.h */,
+				FA78C2A51F1F71C800ECF806 /* MainViewController.m */,
+				FA4273131F2178650005A0F9 /* DetailUserProfileViewController.h */,
+				FA4273141F2178650005A0F9 /* DetailUserProfileViewController.m */,
+				FA4273101F21711F0005A0F9 /* DetailRecipeViewController.h */,
+				FA4273111F21711F0005A0F9 /* DetailRecipeViewController.m */,
+				FA42730B1F21318B0005A0F9 /* RecipeTableViewCell.h */,
+				FA42730C1F21318B0005A0F9 /* RecipeTableViewCell.m */,
+				FA42730D1F21318B0005A0F9 /* RecipeTableViewCell.xib */,
+				FA78C26E1F1E7D4600ECF806 /* Main.storyboard */,
+				FA78C2741F1E7D4600ECF806 /* Assets.xcassets */,
+				FA78C2761F1E7D4600ECF806 /* LaunchScreen.storyboard */,
+				FA78C2791F1E7D4600ECF806 /* Info.plist */,
+				FA78C2711F1E7D4600ECF806 /* xCook.xcdatamodeld */,
+				FA78C2651F1E7D4600ECF806 /* Supporting Files */,
+			);
+			path = xCook;
+			sourceTree = "<group>";
+		};
+		FA78C2651F1E7D4600ECF806 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FA78C2661F1E7D4600ECF806 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FA78C2811F1E7D4600ECF806 /* xCookTests */ = {
+			isa = PBXGroup;
+			children = (
+				FA78C2821F1E7D4600ECF806 /* xCookTests.m */,
+				FA78C2841F1E7D4600ECF806 /* Info.plist */,
+			);
+			path = xCookTests;
+			sourceTree = "<group>";
+		};
+		FA78C28C1F1E7D4600ECF806 /* xCookUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FA78C28D1F1E7D4600ECF806 /* xCookUITests.m */,
+				FA78C28F1F1E7D4600ECF806 /* Info.plist */,
+			);
+			path = xCookUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA78C2611F1E7D4600ECF806 /* xCook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA78C2921F1E7D4600ECF806 /* Build configuration list for PBXNativeTarget "xCook" */;
+			buildPhases = (
+				FA78C25E1F1E7D4600ECF806 /* Sources */,
+				FA78C25F1F1E7D4600ECF806 /* Frameworks */,
+				FA78C2601F1E7D4600ECF806 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = xCook;
+			productName = xCook;
+			productReference = FA78C2621F1E7D4600ECF806 /* xCook.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FA78C27D1F1E7D4600ECF806 /* xCookTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA78C2951F1E7D4600ECF806 /* Build configuration list for PBXNativeTarget "xCookTests" */;
+			buildPhases = (
+				FA78C27A1F1E7D4600ECF806 /* Sources */,
+				FA78C27B1F1E7D4600ECF806 /* Frameworks */,
+				FA78C27C1F1E7D4600ECF806 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA78C2801F1E7D4600ECF806 /* PBXTargetDependency */,
+			);
+			name = xCookTests;
+			productName = xCookTests;
+			productReference = FA78C27E1F1E7D4600ECF806 /* xCookTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FA78C2881F1E7D4600ECF806 /* xCookUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA78C2981F1E7D4600ECF806 /* Build configuration list for PBXNativeTarget "xCookUITests" */;
+			buildPhases = (
+				FA78C2851F1E7D4600ECF806 /* Sources */,
+				FA78C2861F1E7D4600ECF806 /* Frameworks */,
+				FA78C2871F1E7D4600ECF806 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA78C28B1F1E7D4600ECF806 /* PBXTargetDependency */,
+			);
+			name = xCookUITests;
+			productName = xCookUITests;
+			productReference = FA78C2891F1E7D4600ECF806 /* xCookUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA78C25A1F1E7D4600ECF806 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = macKolev;
+				TargetAttributes = {
+					FA78C2611F1E7D4600ECF806 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = DFZ3TLHK3K;
+						ProvisioningStyle = Automatic;
+					};
+					FA78C27D1F1E7D4600ECF806 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = DFZ3TLHK3K;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FA78C2611F1E7D4600ECF806;
+					};
+					FA78C2881F1E7D4600ECF806 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = DFZ3TLHK3K;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FA78C2611F1E7D4600ECF806;
+					};
+				};
+			};
+			buildConfigurationList = FA78C25D1F1E7D4600ECF806 /* Build configuration list for PBXProject "xCook" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA78C2591F1E7D4600ECF806;
+			productRefGroup = FA78C2631F1E7D4600ECF806 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA78C2611F1E7D4600ECF806 /* xCook */,
+				FA78C27D1F1E7D4600ECF806 /* xCookTests */,
+				FA78C2881F1E7D4600ECF806 /* xCookUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA78C2601F1E7D4600ECF806 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA78C2781F1E7D4600ECF806 /* LaunchScreen.storyboard in Resources */,
+				FA78C2751F1E7D4600ECF806 /* Assets.xcassets in Resources */,
+				FA78C2701F1E7D4600ECF806 /* Main.storyboard in Resources */,
+				FA42730F1F21318B0005A0F9 /* RecipeTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA78C27C1F1E7D4600ECF806 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA78C2871F1E7D4600ECF806 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA78C25E1F1E7D4600ECF806 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA4273151F2178650005A0F9 /* DetailUserProfileViewController.m in Sources */,
+				FA78C26D1F1E7D4600ECF806 /* ViewController.m in Sources */,
+				FA4273121F21711F0005A0F9 /* DetailRecipeViewController.m in Sources */,
+				FA78C2AC1F1F8E4B00ECF806 /* AlertView.m in Sources */,
+				FA78C26A1F1E7D4600ECF806 /* AppDelegate.m in Sources */,
+				FA78C2731F1E7D4600ECF806 /* xCook.xcdatamodeld in Sources */,
+				FA78C2A01F1EC82D00ECF806 /* ListUsersViewController.m in Sources */,
+				FA78C2AF1F1F990D00ECF806 /* CreateRecipeViewController.m in Sources */,
+				FA78C2A61F1F71C800ECF806 /* MainViewController.m in Sources */,
+				FA78C29D1F1E7D6500ECF806 /* RegistrationView.m in Sources */,
+				FA78C2671F1E7D4600ECF806 /* main.m in Sources */,
+				FA78C2B21F1FEC9B00ECF806 /* ListCountryViewController.m in Sources */,
+				FA42730E1F21318B0005A0F9 /* RecipeTableViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA78C27A1F1E7D4600ECF806 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA78C2831F1E7D4600ECF806 /* xCookTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA78C2851F1E7D4600ECF806 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA78C28E1F1E7D4600ECF806 /* xCookUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FA78C2801F1E7D4600ECF806 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA78C2611F1E7D4600ECF806 /* xCook */;
+			targetProxy = FA78C27F1F1E7D4600ECF806 /* PBXContainerItemProxy */;
+		};
+		FA78C28B1F1E7D4600ECF806 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA78C2611F1E7D4600ECF806 /* xCook */;
+			targetProxy = FA78C28A1F1E7D4600ECF806 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FA78C26E1F1E7D4600ECF806 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA78C26F1F1E7D4600ECF806 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FA78C2761F1E7D4600ECF806 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA78C2771F1E7D4600ECF806 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FA78C2901F1E7D4600ECF806 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FA78C2911F1E7D4600ECF806 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA78C2931F1E7D4600ECF806 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = DFZ3TLHK3K;
+				INFOPLIST_FILE = xCook/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dnk.xCook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FA78C2941F1E7D4600ECF806 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = DFZ3TLHK3K;
+				INFOPLIST_FILE = xCook/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dnk.xCook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FA78C2961F1E7D4600ECF806 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = DFZ3TLHK3K;
+				INFOPLIST_FILE = xCookTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dnk.xCookTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/xCook.app/xCook";
+			};
+			name = Debug;
+		};
+		FA78C2971F1E7D4600ECF806 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = DFZ3TLHK3K;
+				INFOPLIST_FILE = xCookTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dnk.xCookTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/xCook.app/xCook";
+			};
+			name = Release;
+		};
+		FA78C2991F1E7D4600ECF806 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = DFZ3TLHK3K;
+				INFOPLIST_FILE = xCookUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dnk.xCookUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = xCook;
+			};
+			name = Debug;
+		};
+		FA78C29A1F1E7D4600ECF806 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = DFZ3TLHK3K;
+				INFOPLIST_FILE = xCookUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dnk.xCookUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = xCook;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA78C25D1F1E7D4600ECF806 /* Build configuration list for PBXProject "xCook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA78C2901F1E7D4600ECF806 /* Debug */,
+				FA78C2911F1E7D4600ECF806 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA78C2921F1E7D4600ECF806 /* Build configuration list for PBXNativeTarget "xCook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA78C2931F1E7D4600ECF806 /* Debug */,
+				FA78C2941F1E7D4600ECF806 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA78C2951F1E7D4600ECF806 /* Build configuration list for PBXNativeTarget "xCookTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA78C2961F1E7D4600ECF806 /* Debug */,
+				FA78C2971F1E7D4600ECF806 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA78C2981F1E7D4600ECF806 /* Build configuration list for PBXNativeTarget "xCookUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA78C2991F1E7D4600ECF806 /* Debug */,
+				FA78C29A1F1E7D4600ECF806 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FA78C2711F1E7D4600ECF806 /* xCook.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FA78C2721F1E7D4600ECF806 /* xCook.xcdatamodel */,
+			);
+			currentVersion = FA78C2721F1E7D4600ECF806 /* xCook.xcdatamodel */;
+			path = xCook.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FA78C25A1F1E7D4600ECF806 /* Project object */;
+}
