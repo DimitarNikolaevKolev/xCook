@@ -34,7 +34,6 @@
     //Наименование на рецептата
     self.headerRecipeDetail.text = recipe.name;
     self.titleBarRecipe.topItem.title = recipe.name;
-    _headerRecipeDetail.backgroundColor =[[UIColor lightGrayColor]colorWithAlphaComponent:0.7f];
     
     //Време за приготвяне
     self.timeToCookRecipeDetail.text = recipe.time;
@@ -47,12 +46,10 @@
     
     //Допълнителна информация
     self.additionalInfoRecipeDetail.text = recipe.detail;
-    _additionalInfoRecipeDetail.backgroundColor =[[UIColor lightGrayColor]colorWithAlphaComponent:0.7f];
     
     //Снимка на рецептата
     NSData *data = recipe.image;
     self.imageRecipeDetail.image = [UIImage imageWithData:data];
-    _imageRecipeDetail.alpha = 0.7;
     
 }
 
